@@ -11,7 +11,8 @@
     "build": "node build/build.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "clean": "rm -rf node_modules && rm -rf yarn.lock && rm -rf package-lock.json"
+    "clean": "rm -rf node_modules && rm -rf yarn.lock && rm -rf package-lock.json",
+    "clean:build": "rm -rf dist && rm -rf docs"
   },
   "dependencies": {
     "gh-pages": "^1.2.0",
