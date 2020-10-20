@@ -4,7 +4,6 @@
   "description": "A Vue.js project",
   "author": "danang-ekal <danangekal@gmail.com>",
   "private": true,
-  "homepage": "http://danangekal.github.io/wedding-invitation/",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
