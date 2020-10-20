@@ -25,6 +25,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 - [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework.
 - [UI Kit](https://getuikit.com/) - A lightweight and modular front-end framework for developing fast and powerful web interfaces.
 
+## Demo
+
+- You can check on vercel [vercel](https://wedding-invitation.danangekal.vercel.app/)
+- You can check on github pages [github pages](http://danangekal.github.io/wedding-invitation/)
+
 ## Deploy your own
 
 Deploy the example using [Vercel](https://vercel.com):
