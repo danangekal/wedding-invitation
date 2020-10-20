@@ -10,7 +10,7 @@
     "start": "npm run dev",
     "build": "node build/build.js",
     "clean": "rm -rf node_modules && rm -rf yarn.lock && rm -rf package-lock.json",
-    "clean:build": "rm -rf docs"
+    "clean:build": "rm -rf dist"
   },
   "dependencies": {
     "imports": "^1.0.0",
