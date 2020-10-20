@@ -9,9 +9,8 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "vercel-build": "npm run build",
     "clean": "rm -rf node_modules && rm -rf yarn.lock && rm -rf package-lock.json",
-    "clean:build": "rm -rf dist && rm -rf docs"
+    "clean:build": "rm -rf docs"
   },
   "dependencies": {
     "imports": "^1.0.0",
