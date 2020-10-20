@@ -9,13 +9,11 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "vercel-build": "npm run build",
     "clean": "rm -rf node_modules && rm -rf yarn.lock && rm -rf package-lock.json",
     "clean:build": "rm -rf dist && rm -rf docs"
   },
   "dependencies": {
-    "gh-pages": "^1.2.0",
     "imports": "^1.0.0",
     "jquery": "^3.2.1",
     "less": "^3.0.4",
