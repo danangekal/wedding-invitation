@@ -19,7 +19,7 @@
     "imports": "^1.0.0",
     "jquery": "^3.2.1",
     "less": "^3.0.4",
-    "less-loader": "^4.0.5",
+    "less-loader": "^5.0.0",
     "node-sass": "^4.7.2",
     "sass": "^1.0.0-beta.3",
     "sass-loader": "^6.0.6",
